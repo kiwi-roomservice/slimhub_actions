@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-if [[ $OSTYPE != "linux-gnu" ]]; then
-  printf "This Cleanup Script Should Be Run On Ubuntu Runner.\n"
-  exit 1
-fi
+#if [[ $OSTYPE != "linux-gnu" ]]; then
+#  printf "This Cleanup Script Should Be Run On Ubuntu Runner.\n"
+#  exit 1
+#fi
 
 # Make Sure The Environment Is Non-Interactive
 export DEBIAN_FRONTEND=noninteractive
