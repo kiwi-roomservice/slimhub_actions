@@ -17,7 +17,7 @@ done
 unset SECONDS_LEFT
 
 echo "::group::Disk Space Before Cleanup"
-df -hlT /
+df -h /
 echo "::endgroup::"
 
 echo "::group::Clearing Docker Image Caches"
@@ -132,7 +132,7 @@ printf "This However is Not Retained after the Step is finished. So this part mi
 echo "::endgroup::"
 
 echo "::group::Disk Space After Cleanup"
-df -hlT /
+df -h /
 echo "::endgroup::"
 
 printf "\nIf this action really helped you,\n Go to https://github.com/marketplace/actions/github-actions-cleaner\n And show your love by giving a star.\n\n"
